@@ -3,11 +3,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "migrate": "node-pg-migrate"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "daisyui": "^2.41.0",
     "eslint-config-next": "^13.0.4",
     "next": "^13.0.4",
+    "pg": "^8.8.0",
+    "pg-native": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
